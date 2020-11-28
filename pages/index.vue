@@ -13,7 +13,7 @@
             rel="noopener noreferrer"
             class="button--sysvale flex-1 mr-20px"
           >
-            <span class="margin-auto">Sysvale</span>
+            <span class="margin-auto">Botão com texto errado</span>
           </a>
 
           <a
