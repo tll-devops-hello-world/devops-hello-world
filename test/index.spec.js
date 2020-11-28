@@ -14,7 +14,7 @@ describe('index', () => {
 
   test('Shows Sysvale Button', () => {
     const wrapper = mount(index)
-    const button = wrapper.find("#sysvale")
+    const button = wrapper.find('#sysvale')
     expect(button.text()).toBe('Sysvale')
     expect(button.attributes().href).toBe('https://sysvale.com')
   })
