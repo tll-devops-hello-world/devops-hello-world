@@ -13,7 +13,7 @@ jobs:
 
     runs-on: ubuntu-18.04
 
-    container: elaynelemos/vue:node-12.19
+    container: leolleocompo/devops-hello-world-v2
 
     steps:
       - uses: actions/checkout@v2
@@ -27,11 +27,11 @@ jobs:
       - name: Install dependencies
         run: yarn install
 
+      - name: Linter
+        run: yarn run lint
+
       - name: Build
         run: yarn run build
 
       - name: Test
         run: yarn test
-
-      - name: Linter
-        run: yarn run lint
